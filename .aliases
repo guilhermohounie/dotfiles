@@ -1,0 +1,4 @@
+# Aliases
+alias icloud="~/Library/Mobile\ Documents/com\~apple\~CloudDocs/"
+alias randkey="openssl rand -base64 32"
+alias pb="pbcopy"

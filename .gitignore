@@ -1,0 +1,3 @@
+# Ignore all macOS misc files
+*.DS_Store
+*.localized
