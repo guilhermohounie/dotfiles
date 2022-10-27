@@ -63,12 +63,11 @@ fi
 
 # link dotfiles to home directory
 echo "Linking dotfiles to home directory..."
-ln -sfv ".zshrc" ~
-ln -sfv ".gitconfig" ~
-ln -sfv ".hushlogin" ~
-ln -sfv ".zprofile" ~
-ln -sfv ".zshrc" ~
-ln -sfv ".aliases" ~
+ln ".zshrc" ~
+ln ".gitconfig" ~
+ln ".hushlogin" ~
+ln ".zprofile" ~
+ln ".aliases" ~
 
 # Install nodejs
 if ! command -v node &> /dev/null; then
