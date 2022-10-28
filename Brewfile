@@ -3,7 +3,6 @@ brew "asdf"
 brew "gh"
 brew "git"
 brew "railway"
-brew "shadowenv"
 
 cask "docker"
 cask "notion"

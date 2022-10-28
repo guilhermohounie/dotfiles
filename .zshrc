@@ -23,6 +23,3 @@ plugins=(
 # Sources
 source $ZSH/oh-my-zsh.sh
 [[ -f ~/.aliases ]] && source ~/.aliases
-
-# Eval
-eval "$(shadowenv init zsh)"
