@@ -1,8 +1,8 @@
 brew "git"
 brew "asdf"
 brew "gh"
-brew "git"
 brew "railway"
+brew "libpq"
 
 cask "docker"
 cask "notion"

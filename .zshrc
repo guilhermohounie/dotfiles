@@ -6,7 +6,6 @@ export EDITOR=code
 export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PATH"
 export PATH="$PATH:$HOME/.yarn/bin"
 
-
 # Theme
 ZSH_THEME="theunraveler"
 

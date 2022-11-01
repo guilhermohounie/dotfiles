@@ -35,6 +35,9 @@ else
     echo "✨ homebrew is installed"
 fi
 
+# Link .zprofile to expose brew to zsh
+ln ".zprofile" ~
+
 
 # Install brew packages
 echo "Installing brew packages..."
@@ -66,7 +69,6 @@ echo "Linking dotfiles to home directory..."
 ln ".zshrc" ~
 ln ".gitconfig" ~
 ln ".hushlogin" ~
-ln ".zprofile" ~
 ln ".aliases" ~
 
 # Install nodejs
