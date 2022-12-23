@@ -100,7 +100,7 @@ if [ "$(ruby -v)" != "ruby 3.1.2p20 (2022-04-12 revision 4491bb740a) [arm64-darw
 else
     echo "✨ Ruby version is 3.1.2"
     echo "Installing gems..."
-    gem install rails rake bundler
+    gem install bundler
 fi
 
 true
