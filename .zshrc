@@ -17,7 +17,7 @@ plugins=(
 )
 
 # asdf version Manager
-. /opt/homebrew/opt/asdf/libexec/asdf.sh
+$(brew --prefix asdf)/libexec/asdf.sh
 
 # Sources
 source $ZSH/oh-my-zsh.sh

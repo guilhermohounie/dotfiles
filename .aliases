@@ -2,3 +2,7 @@
 alias icloud="~/Library/Mobile\ Documents/com\~apple\~CloudDocs/"
 alias randkey="openssl rand -base64 32"
 alias pb="pbcopy"
+
+function search() {
+    find / \( -type f -o -type d \) -name "*$1*" -print 2>/dev/null
+}

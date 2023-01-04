@@ -1,7 +1,6 @@
 brew "git"
 brew "asdf"
 brew "gh"
-brew "railway"
 
 cask "docker"
 cask "notion"
