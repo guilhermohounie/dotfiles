@@ -75,10 +75,10 @@ ln ".aliases" ~
 if ! command -v node &> /dev/null; then
     echo "Installing nodejs..."
     asdf plugin add nodejs
-    asdf install nodejs 16
-    asdf global nodejs 16
+    asdf install nodejs 18.12.1
+    asdf global nodejs 18.12.1
     npm install --location=global yarn
-    asdf reshim nodejs 16
+    asdf reshim nodejs 18.12.1
 else
     echo "✨ nodejs is installed"
 fi
