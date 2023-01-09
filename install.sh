@@ -84,23 +84,23 @@ else
 fi
 
 # Install ruby
-if ! command -v ruby &> /dev/null; then
-    echo "Installing ruby..."
-    asdf plugin add ruby
-    asdf install ruby 3.1.2
-    asdf global ruby 3.1.2
-    asdf reshim ruby 3.1.2
-else
-    echo "✨ ruby is installed"
-fi
+# if ! command -v ruby &> /dev/null; then
+#     echo "Installing ruby..."
+#     asdf plugin add ruby
+#     asdf install ruby 3.1.2
+#     asdf global ruby 3.1.2
+#     asdf reshim ruby 3.1.2
+# else
+#     echo "✨ ruby is installed"
+# fi
 
 # Check if ruby version is 3.1.2
-if [ "$(ruby -v)" != "ruby 3.1.2p20 (2022-04-12 revision 4491bb740a) [arm64-darwin21]" ]; then
-    echo "Ruby version is not 3.1.2"
-else
-    echo "✨ Ruby version is 3.1.2"
-    echo "Installing gems..."
-    gem install bundler
-fi
+# if [ "$(ruby -v)" != "ruby 3.1.2p20 (2022-04-12 revision 4491bb740a) [arm64-darwin21]" ]; then
+#     echo "Ruby version is not 3.1.2"
+# else
+#     echo "✨ Ruby version is 3.1.2"
+#     echo "Installing gems..."
+#     gem install bundler
+# fi
 
 true
